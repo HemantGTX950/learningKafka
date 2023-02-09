@@ -13,8 +13,8 @@ import static com.hbgtx.learningkafka.kafkajava.util.ConstantUtils.TOPIC_NAME;
 @RestController
 public class KafkaController {
 
-    private KafkaTemplate<String, String> template;
-    private MyTopicConsumer myTopicConsumer;
+    private final KafkaTemplate<String, String> template;
+    private final MyTopicConsumer myTopicConsumer;
 
     public KafkaController(KafkaTemplate<String, String> template, MyTopicConsumer myTopicConsumer) {
         this.template = template;
