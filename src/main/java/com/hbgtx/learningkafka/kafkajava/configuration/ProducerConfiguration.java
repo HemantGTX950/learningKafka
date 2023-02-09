@@ -12,10 +12,11 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
+import static com.hbgtx.learningkafka.kafkajava.util.ConstantUtils.KAFKA_BROKER;
+
 @Configuration
 public class ProducerConfiguration {
 
-    private static final String KAFKA_BROKER = "localhost:9092";
     @Bean
     public ProducerFactory<String, String> producerFactory() {
         return new DefaultKafkaProducerFactory<>(producerConfigurations());

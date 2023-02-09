@@ -1,3 +1,6 @@
+com/hbgtx/learningkafka/kafkajava/util/ConstantUtils.class
+com/hbgtx/learningkafka/kafkajava/consumer/MyTopicConsumer.class
+com/hbgtx/learningkafka/kafkajava/controller/KafkaController.class
+com/hbgtx/learningkafka/kafkajava/configuration/ConsumerConfiguration.class
 com/hbgtx/learningkafka/kafkajava/configuration/ProducerConfiguration.class
 com/hbgtx/learningkafka/kafkajava/KafkaJavaApplication.class
-com/hbgtx/learningkafka/kafkajava/controller/KafkaController.class
